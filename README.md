@@ -6,18 +6,13 @@ Nombre: Cristian González González
 
 Fecha: 19/12/23
 
-## Inicio
+## Documentación Sorteo Exámen:
 
-Para empezar, crea un fork de este repositorio, clónalo en tu ordenador y abre el proyecto con VSCode.
+La funcionalidad de esta aplicación web consiste en permitirnos realizar un sorteo aleatorio entre los participantes almacenados y mostrar en pantalla un participante ganador elegido al azar.
 
-Edita este fichero README.md con tu nombre y la fecha de hoy, una vez hagas un commit inicial, estas listo para empezar!
+Al escribir el nombre de uno de los participantes en el input de texto y presionar la tecla enter o haciendo click en el botón añadir, nos suma un nombre a la lista de participantes, una vez hecho podemos añadir los participantes que queremos que participen en el sorteo. Si en el input de texto presionamos la tecla esc, borramos los datos de los participantes o al presionar el botón Borrar. Y si pulsamos en el botón sorteo nos elige un participante aleatorio al azar, y si volvemos a pulsarlo nos da otro participante aleatorio al azar.
 
-El examen está dividido en 3 partes, cada una de ellas en una carpeta diferente:
+La creación de esta aplicación web ha sido creando funciones en JavaScript que son las principales, añadir(), borrar() y sortear(), estas funciones las he unido a las acciones de hacer click en el botón especificado para cada una de ellas o al presionar alguna tecla en el caso de las dos primeras funciones citadas en un documento.js. Y creando un documento style.css que da el aspecto visual de la página, márgenes, tamaño del texto, fuente de la escritura, etc. Uniendo el documento de scripts.js y style.css en el index.html de la página web.
 
-- `00_teoria`: Varias preguntas de teoría.
-- `01_practica`: Ejercicio con html+js.
-- `02_docs`: Documentación del ejercicio realizado.
+[Enlace al Ejercicio](https://codepen.io/Cristian727/pen/dyrbovP)
 
-Es importante que realizes primero la parte de teoría, aunque las partes de práctica y documentación se pueden realizar como quieras.
-
-Cada directorio tiene instrucciones en su interior, léelas con atención, y si tienes alguna duda, preguntame!
