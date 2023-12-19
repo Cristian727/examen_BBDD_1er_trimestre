@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  :root{
+    font-family: monospace;
+    font-size: 16px;
+  }
+  .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 20vw;
+
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+  }
+  .left{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .resultadoGanador{
+  
+      position: absolute;
+      bottom: 7vw;
+      left: 50;
+      font-size: 2em;
+
+  }
+  button{
+    background: lightgreen;
+    margin: 10px;
+    padding: 10px 8px;
+    font-size: 2em;
+    box-shadow: 1px 1px 0px black;
+    font-family: monospace;
+  }
+
+  #input_usuario{
+    font-size: 1.5em;
+    background: whitesmoke;
+    padding: 10px 8px;
+    margin: 10px;
+    border-radius: 0.2em;
+    box-shadow: 1px 1px 0px black;
+
+  }
+
+  h1{
+    font-size: 60px;
+  }
+  .resultados{
+    font-size: 2em;
+  }
+  
